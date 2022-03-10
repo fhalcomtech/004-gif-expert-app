@@ -1,0 +1,33 @@
+.card
+{
+    overflow: hidden;
+    width: 320px;
+    height: 180px;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    background-color: hsla(125, 255, 75, 0.20);
+    position: relative;
+    & > .card-image
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+     
+    }
+
+    & > .card-name
+    {
+        position: absolute;
+        width: 100%;
+        height: 25%;
+        font-size: 2rem;
+        bottom:0;
+        color: white;
+        background-color: black;
+        opacity: 0.5;
+        text-align: center;
+
+    }
+}

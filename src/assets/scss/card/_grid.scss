@@ -1,0 +1,24 @@
+.category-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    & > .category-name {
+        height: 3em;
+        background-color: rgba($color: blue, $alpha: .25);
+        color:aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+   }
+
+   & > .category-images
+   {
+       margin-top: 1rem;
+       width: 100vw;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+}
