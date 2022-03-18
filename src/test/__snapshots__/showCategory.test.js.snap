@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ShowCategory component ShowCategory Snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-img"
+  >
+    <img
+      alt="Img title"
+      src="img/data/img.jpg"
+    />
+  </div>
+  <div
+    className="card-name"
+  >
+    Img title
+  </div>
+</div>
+`;

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 export const ShowCategory = ({ url, title}) => {
   return (
@@ -11,4 +12,9 @@ export const ShowCategory = ({ url, title}) => {
         </div>
     </div>
   )
+}
+
+ShowCategory.propTypes = {
+    url: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired
 }
