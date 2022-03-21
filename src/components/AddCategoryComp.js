@@ -7,6 +7,8 @@ export const AddCategoryComp = ({setCategories}) => {
     const handlerChangeCategory = (e) => setCategory(e.target.value); 
     const handlerFormSubmit = (e) => {
         e.preventDefault();
+        if(category.length<1) return;
+
         setCategories(curr => {
             if(timer){
                 setTimer(tm => {

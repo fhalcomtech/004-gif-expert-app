@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests ShowCategories Component Create ShowCategories component snapshot 1`] = `
+<div
+  className="category-container"
+>
+  <h4
+    className="category-name"
+  >
+    Loading...
+  </h4>
+  <div
+    className="category-images"
+  />
+</div>
+`;
+
+exports[`Tests ShowCategories Component Create ShowCategories component snapshot with fetch data 1`] = `
+<div
+  className="category-container"
+>
+  <h4
+    className="category-name"
+  >
+    goku
+  </h4>
+  <div
+    className="category-images"
+  >
+    <ShowCategory
+      key="xyz"
+      title="fhalcomX"
+      url="http://localhost/img/fhalcom.gif"
+    />
+    <ShowCategory
+      key="abc"
+      title="abc"
+      url="http://localhost/img/abc.jpg"
+    />
+  </div>
+</div>
+`;

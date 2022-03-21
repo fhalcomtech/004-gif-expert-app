@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create describe <AddCategoryComp/> Creating Snapshop 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h2>
+    Gif Expert App
+  </h2>
+  <h5 />
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    Save
+  </button>
+</form>
+`;

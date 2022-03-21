@@ -3,7 +3,6 @@ import { ShowCategory } from './ShowCategory';
 
 export const ShowCategories = ({category}) => {
    const {loading, data:images} = useFetchGif(category);
-  console.log(loading);
   return (
     <div className='category-container'>
         <h4 className='category-name'>
