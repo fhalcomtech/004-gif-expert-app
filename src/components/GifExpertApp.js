@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import { AddCategoryComp } from './AddCategoryComp';
 import { ShowCategories } from './ShowCategories';
 
-const GifExpertApp = () => 
+const GifExpertApp = ({defaultCategories= []}) =>
 {
-  const initialCategs =  ['Dragon Ball'];
-  const [categ, setCateg] = useState(initialCategs);
+  const [categ, setCateg] = useState(defaultCategories);
   return (
     <>
       <AddCategoryComp setCategories={setCateg} />

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for GifExpertApp component Test Initial Snapshot with initial categories 1`] = `
+<Fragment>
+  <AddCategoryComp
+    setCategories={[Function]}
+  />
+  <hr />
+  <div>
+    <ul>
+      <ShowCategories
+        category="goku"
+        key="goku"
+      />
+      <ShowCategories
+        category="gohan"
+        key="gohan"
+      />
+    </ul>
+  </div>
+</Fragment>
+`;
+
+exports[`Test for GifExpertApp component Test Initial Snapshot without default categories 1`] = `
+<Fragment>
+  <AddCategoryComp
+    setCategories={[Function]}
+  />
+  <hr />
+  <div>
+    <ul />
+  </div>
+</Fragment>
+`;
